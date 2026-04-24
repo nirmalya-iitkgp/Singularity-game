@@ -19,6 +19,7 @@ export class GameEngine {
   levelData: LevelData;
   timeScale: number = 1.0;
   lastDt: number = 1.0;
+  lastDt: number = 1.0;
   lastTeleportTime: number = 0;
 
   constructor(level: number = 1) {
